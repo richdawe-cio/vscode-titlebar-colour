@@ -12,7 +12,7 @@ To generate a bundle (`.vsix` file) that you can install into VSCode locally, ru
 npx vsce package
 ```
 
-This will build a file with a name like `titlebar-colour-0.0.1.vsix`.
+This will build a file with a name like `titlebar-colour-0.0.2.vsix`.
 
 ## Install Bundle
 

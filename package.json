@@ -2,7 +2,7 @@
   "name": "titlebar-colour",
   "displayName": "titlebar-colour",
   "description": "Ensure each VSCode window has a titlebar with a different colour.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/richdawe-cio/vscode-titlebar-colour"
