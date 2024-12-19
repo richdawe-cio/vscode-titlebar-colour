@@ -18,6 +18,16 @@ const colours = [
 	"#702963", // Byzantium
 
 	"#8B8000", // Dark Yellow
+
+	"#0B353B", // Evergreen
+	"#533FCD", // Purple
+	"#3B0B22", // Sangria
+	"#FCECFF", // Mauve
+	"#950E5F", // Plum
+	"#2C155D", // Indigo
+	"#0075FF", // Blue
+	"#D6D8FF", // Lavender
+	"#44D4DE", // Teal
 ];
 
 // Taken from https://gist.github.com/hyamamoto/fd435505d29ebfa3d9716fd2be8d42f0?permalink_comment_id=2694461#gistcomment-2694461
