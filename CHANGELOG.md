@@ -1,9 +1,3 @@
 # Change Log
 
-All notable changes to the "titlebar-colour" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+Please see the [Releases page](https://github.com/richdawe-cio/vscode-titlebar-colour/releases) in GitHub.
