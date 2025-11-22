@@ -4,3 +4,5 @@ node_modules
 vsc-extension-quickstart.md
 .vscode
 .vscode-test
+*.tgz
+*.tar.gz
