@@ -1,12 +1,14 @@
 src/
 **/*.ts
+**/*.map
 test/
+TODO.md
 
 .eslintrc.js
-.github
+.github/
 .vscode-test/
 *.tar.gz
 *.tgz
 
 # Do NOT ignore built extension files
-!out/extension.*
+!out/**

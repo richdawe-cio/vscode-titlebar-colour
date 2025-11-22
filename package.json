@@ -17,11 +17,6 @@
     "workspaceContains:**/*"
   ],
   "main": "out/extension.js",
-  "files": [
-	  "out",
-	  "README.md",
-	  "CHANGELOG.md"
-  ],
   "contributes": {},
   "scripts": {
     "vscode:prepublish": "npm run compile",
