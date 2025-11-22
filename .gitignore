@@ -1,5 +1,12 @@
 out
 node_modules
+*.patch
 *.vsix
+
 vsc-extension-quickstart.md
+
 .vscode
+.vscode-test
+
+*.tgz
+*.tar.gz
