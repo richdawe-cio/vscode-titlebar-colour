@@ -24,10 +24,12 @@ On VSCode on macOS, you have to click on the breadcrumbs (...) in the top-right 
 
 See [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) for more information about building and publishing bundles.
 
+If you're running on Ubuntu, **do not use the snap packaging for node**. It does not work properly with `vsce`. Instead, I recommend installing node using [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).
+
 To generate a bundle (`.vsix` file) that you can install into VSCode locally, run the following command:
 
 ```bash
 npx vsce package
 ```
 
-This will build a file with a name like `titlebar-colour-0.0.3.vsix`.
+This will build a file with a name like `titlebar-colour-0.0.9.vsix`.
