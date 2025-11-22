@@ -16,7 +16,12 @@
   "activationEvents": [
     "workspaceContains:**/*"
   ],
-  "main": "./out/extension.js",
+  "main": "out/extension.js",
+  "files": [
+	  "out",
+	  "README.md",
+	  "CHANGELOG.md"
+  ],
   "contributes": {},
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -30,8 +35,8 @@
     "@types/mocha": "^10.0.3",
     "@types/node": "18.x",
     "@types/vscode": "^1.84.0",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.47.0",
+    "@typescript-eslint/parser": "^8.47.0",
     "@vscode/test-electron": "^2.3.6",
     "eslint": "^8.52.0",
     "glob": "^12.0.0",

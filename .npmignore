@@ -1,0 +1,12 @@
+src/
+**/*.ts
+test/
+
+.eslintrc.js
+.github
+.vscode-test/
+*.tar.gz
+*.tgz
+
+# Do NOT ignore built extension files
+!out/extension.*
