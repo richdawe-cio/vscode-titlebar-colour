@@ -32,13 +32,14 @@ const colours = [
 
 // Taken from https://gist.github.com/hyamamoto/fd435505d29ebfa3d9716fd2be8d42f0?permalink_comment_id=2694461#gistcomment-2694461
 function hashCode(s: string) {
-    for(var i = 0, h = 0; i < s.length; i++) {
+	let h = 0;
+    for(let i = 0; i < s.length; i++) {
         h = Math.imul(31, h) + s.charCodeAt(i) | 0;
 	}
     return h;
 }
 
-export function activate(context: vscode.ExtensionContext) {
+export function activate(/*context: vscode.ExtensionContext*/) {
 	// console.log('Congratulations, your extension "titlebar-colour" is now active!');
 	
 	const workspaceName = vscode.workspace.name || 'unknown';
@@ -65,10 +66,10 @@ export function activate(context: vscode.ExtensionContext) {
 	};
 	
 	console.log(`Setting titlebar colours for workspace ${vscode.workspace.name} to ${newColour} [idx:${newColourIndex} h:${h}]`);
-	let cc = JSON.parse(JSON.stringify(
+	const cc = JSON.parse(JSON.stringify(
 		vscode.workspace.getConfiguration('workbench').get('colorCustomizations')
 	));
-	cc = vscode.workspace.getConfiguration('workbench').update(
+	vscode.workspace.getConfiguration('workbench').update(
 		'colorCustomizations',
 		{ ...cc, ...newColours },
 		false
